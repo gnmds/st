@@ -15,3 +15,11 @@
 
 # ignore default config.def.h
 config.def.h
+
+# unignore relevant files
+!FAQ
+!LEGACY
+!LICENSE
+!Makefile
+!README
+!TODO
