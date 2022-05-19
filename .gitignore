@@ -1,0 +1,17 @@
+# ignore any files
+*
+
+# unignore dirs
+!*/
+
+# unignore any other files
+!*.*
+
+# ignore output files
+*.o
+
+# ignore orig files
+*.orig
+
+# ignore default config.def.h
+config.def.h
