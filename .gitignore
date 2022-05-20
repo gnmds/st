@@ -1,9 +1,6 @@
 # ignore any files
 *
 
-# unignore dirs
-!*/
-
 # unignore any other files
 !*.*
 
