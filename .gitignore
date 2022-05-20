@@ -7,8 +7,9 @@
 # ignore output files
 *.o
 
-# ignore orig files
+# ignore orig & rej files
 *.orig
+*.rej
 
 # ignore default config.def.h
 config.def.h
