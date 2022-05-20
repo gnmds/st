@@ -97,6 +97,7 @@ unsigned int tabspaces = 8;
 float alpha = 0.85;
 
 /* Terminal colors (16 first used in escape sequence) */
+/* colorscheme inspired by kanagawa.nvim (github.com/rebelot/kanagawa.nvim) */
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"#1f1f28", // black
@@ -109,7 +110,7 @@ static const char *colorname[] = {
 	"#363646", // gray
 
 	/* 8 bright colors */
-	"#2a2a37", // gray
+	"#54546d", // gray
 	"#e82424", // red
 	"#98bb6c", // green 
 	"#ff9e3b", // yellow
@@ -122,7 +123,7 @@ static const char *colorname[] = {
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#c8c093",
-	"#2a2a37",
+	"#54546d",
 	"#dcd7ba", /* default foreground colour */
 	"#1f1f28", /* default background colour */
 };
