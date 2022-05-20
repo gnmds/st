@@ -100,32 +100,32 @@ float alpha = 0.9;
 /* colorscheme inspired by kanagawa.nvim (github.com/rebelot/kanagawa.nvim) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1f1f28", // black
-	"#c34032", // red
+	"#090618", // black
+	"#c34043", // red
 	"#76946a", // green
-	"#dca561", // yellow
-	"#2d4f67", // blue
-	"#957fb8", // magenta
-	"#7e9cd8", // cyan
-	"#363646", // gray
+	"#c0a36e", // yellow
+	"#7e9cd8", // blue
+	"#957fb8", // purple
+	"#6a9589", // cyan
+	"#c8c093", // white
 
 	/* 8 bright colors */
-	"#54546d", // gray
+	"#727169", // black
 	"#e82424", // red
 	"#98bb6c", // green 
-	"#ff9e3b", // yellow
-	"#658594", // blue
-	"#d27e99", // magenta
-	"#7fb4ca", // cyan 
+	"#e6c384", // yellow
+	"#7fb4ca", // blue
+	"#938aa9", // purple
+	"#7aa89f", // cyan
 	"#dcd7ba", // white
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#c8c093",
-	"#54546d",
-	"#dcd7ba", /* default foreground colour */
-	"#1f1f28", /* default background colour */
+	"#c8c093", /* cursor     colour */
+	"#2d4f67", /* selection  colour */
+	"#dcd7ba", /* foreground colour */
+	"#1f1f28", /* background colour */
 };
 
 
