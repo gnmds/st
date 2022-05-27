@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <X11/Xft/Xft.h>
+#include <X11/cursorfont.h>
 #include <hb.h>
 #include <hb-ft.h>
 
@@ -20,8 +21,8 @@ typedef struct {
 static int hbfontslen = 0;
 static HbFontMatch *hbfontcache = NULL;
 
-/*
- * Replace 0 with a list of font features, wrapped in FEATURE macro, e.g.
+/* 
+ * Replace 0 with a list of font features, wrapped in FEATURE macro, e.g. 
  * FEATURE('c', 'a', 'l', 't'), FEATURE('d', 'l', 'i', 'g')
  */
 hb_feature_t features[] = { 0 };
